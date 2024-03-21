@@ -1,0 +1,62 @@
+/* style the main body of the document */
+body {
+  background-color: #7feff3;
+  padding: 100px;
+  font-family: sans-serif;
+}
+/* style the paragraph text */
+p {
+  font-family: sans-serif;
+}
+
+/* style the headings */
+h1 {
+  font-size: 28px;
+  color: rgb(43, 50, 151);
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+  color: rgb(43, 50, 151);
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+h3 {
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* style the unordered list */
+ul {
+  font-family: sans-serif;
+  color: rgb(4, 122, 54);
+  list-style-type: square;
+}
+
+/*define the link styles*/
+a {
+  color:rgb(43, 50, 151);
+}
+a:hover {
+  color:  #00acc1;
+}
+a:visited {
+  color:rgb(43, 50, 151);
+}
+
+/*define the strong styles*/
+strong {
+	color:  #d81b60;
+}
+
+/*define the image styles*/
+
+img {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px; 
+}
